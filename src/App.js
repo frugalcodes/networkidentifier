@@ -64,7 +64,7 @@ function App() {
             return <h1>Enter a correct phone number</h1>
           }
        }
-  
+       DisplayText()
        event.preventDefault()
       }
      
@@ -74,7 +74,7 @@ function App() {
   return (
     <div className="container">
         
-       {DisplayText()}
+       
        
       <input  type="text" id='num'  value={number} onChange={handleChange} placeholder="Enter the phone number"/> 
       <button onClick={handleClick}>Search</button>
