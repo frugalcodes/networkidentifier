@@ -46,13 +46,13 @@ function App() {
         // Example of updating the brand of the current phone number after
         // testing it.
       
-        return <h1>MTN<span><img src={process.env.PUBLIC_URL + '/images/mtn.png'}/></span></h1>
+        return <h1><span><img src={process.env.PUBLIC_URL + '/images/mtn.png'}/></span></h1>
       } else if (airtel.includes(prefix)) {
-        return <h1>AIRTEL<span><img src={process.env.PUBLIC_URL + '/images/airtel.png'}/></span></h1>
+        return <h1><span><img src={process.env.PUBLIC_URL + '/images/airtel.png'}/></span></h1>
       } else if (GLO.includes(prefix)) {
-        return <h1>GLO <span><img src={process.env.PUBLIC_URL + '/images/glo.png'}/></span> </h1>
+        return <h1><span><img src={process.env.PUBLIC_URL + '/images/glo.png'}/></span> </h1>
       } else if (_9mobile.includes(prefix)) {
-        return <h1>9MOBILE <span><img src={process.env.PUBLIC_URL + '/images/_9mobile.png'}/></span></h1>
+        return <h1><span><img src={process.env.PUBLIC_URL + '/images/_9mobile.png'}/></span></h1>
       }
       else {
         return <h1>Enter a correct phone number</h1>
@@ -64,10 +64,17 @@ function App() {
 
   return (
     <div className="container">
+      <h1 className='header-text'>Hello, this App Helps you know the network brand of your phone number</h1>
       {DisplayText()}
       
       <input type="text" id='num' value={number} onChange={handleChange} />
-      
+      <div className='buttom-div'>
+      <p>Link up with the developer</p>
+      <a href="https://web.facebook.com/iambuyfrugal/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/buyfrugal" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/therealsamuel_igwe/" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/samuel-igwe-031152226/" class="fa fa-linkedin"></a>
+      </div>
     </div>
   );
 
