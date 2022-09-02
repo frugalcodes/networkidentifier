@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/networkidentifier/static/css/main.116a3558.css",
+    "main.js": "/networkidentifier/static/js/main.e5749631.js",
+    "index.html": "/networkidentifier/index.html",
+    "main.116a3558.css.map": "/networkidentifier/static/css/main.116a3558.css.map",
+    "main.e5749631.js.map": "/networkidentifier/static/js/main.e5749631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116a3558.css",
+    "static/js/main.e5749631.js"
+  ]
+}
