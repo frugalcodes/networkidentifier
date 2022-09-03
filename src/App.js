@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className='header-text'>Hello, this App Helps you know the network brand of your phone number</h1>
+      <h1 className='header-text'>KNOW YOUR NETWORK BRAND</h1>
       {DisplayText()}
       
       <input type="text" id='num' value={number} onChange={handleChange} />
