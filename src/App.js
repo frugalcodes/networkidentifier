@@ -46,13 +46,13 @@ function App() {
         // Example of updating the brand of the current phone number after
         // testing it.
       
-        return <h1><span><img src={process.env.PUBLIC_URL + '/images/mtn.png'}/></span></h1>
+        return <h1>MTN&nbsp;<span><img src={process.env.PUBLIC_URL + '/images/mtn.png'}/></span></h1>
       } else if (airtel.includes(prefix)) {
-        return <h1><span><img src={process.env.PUBLIC_URL + '/images/airtel.png'}/></span></h1>
+        return <h1>AIRTEL&nbsp;<span><img src={process.env.PUBLIC_URL + '/images/airtel.png'}/></span></h1>
       } else if (GLO.includes(prefix)) {
-        return <h1><span><img src={process.env.PUBLIC_URL + '/images/glo.png'}/></span> </h1>
+        return <h1>GLO&nbsp;<span><img src={process.env.PUBLIC_URL + '/images/glo.png'}/></span> </h1>
       } else if (_9mobile.includes(prefix)) {
-        return <h1><span><img src={process.env.PUBLIC_URL + '/images/_9mobile.png'}/></span></h1>
+        return <h1>9MOBILE&nbsp;<span><img src={process.env.PUBLIC_URL + '/images/_9mobile.png'}/></span></h1>
       }
       else {
         return <h1>Enter a correct phone number</h1>
